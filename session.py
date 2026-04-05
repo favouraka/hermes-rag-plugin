@@ -740,7 +740,7 @@ if __name__ == "__main__":
     print("RAG Session Model - Quick Test")
     print("=" * 50)
 
-    from rag_peer_model import Peer, PeerManager
+    from peer_model import Peer, PeerManager
 
     # Create managers
     peer_manager = PeerManager()

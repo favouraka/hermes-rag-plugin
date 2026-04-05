@@ -8,8 +8,8 @@ from datetime import datetime
 from typing import Optional, Dict, Any, List
 import sqlite3
 
-from rag_peer_model import Peer, PeerManager
-from rag_session import Session, SessionManager
+from peer_model import Peer, PeerManager
+from session import Session, SessionManager
 
 
 class AutoPeerCapture:
@@ -246,7 +246,7 @@ class AutoPeerCapture:
         Returns:
             SessionContext object
         """
-        from rag_session import SessionContext
+        from session import SessionContext
 
         session = self.session_manager.get_session(session_id)
         if not session:
