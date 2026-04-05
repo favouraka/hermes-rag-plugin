@@ -40,7 +40,7 @@ A complete RAG memory plugin for Hermes with production-grade features:
 
 ```bash
 # Clone the repository
-git clone https://github.com/YOUR_USERNAME/rag-system.git
+git clone https://github.com/favouraka/rag-system.git
 cd rag-system
 
 # Install dependencies
@@ -335,9 +335,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 🔗 Links
 
-- **GitHub Repository**: https://github.com/YOUR_USERNAME/rag-system
-- **Issues**: https://github.com/YOUR_USERNAME/rag-system/issues
-- **Pull Requests**: https://github.com/YOUR_USERNAME/rag-system/pulls
+- **GitHub Repository**: https://github.com/favouraka/rag-system
+- **Issues**: https://github.com/favouraka/rag-system/issues
+- **Pull Requests**: https://github.com/favouraka/rag-system/pulls
 
 ---
 
