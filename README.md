@@ -32,6 +32,10 @@ A complete RAG memory plugin for Hermes with production-grade features:
 
 ## 🚀 Quick Start
 
+**Want to get started in 5 minutes?** See [QUICKSTART.md](QUICKSTART.md) for copy-paste examples.
+
+**Need detailed installation instructions?** See [INSTALLATION_GUIDE.md](INSTALLATION_GUIDE.md) for environment-specific setup.
+
 ### Installation
 
 ```bash

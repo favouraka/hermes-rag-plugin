@@ -72,11 +72,9 @@ htmlcov/
 # Archive (keep separate from main repo)
 archive/
 
-# Internal documentation (for GitHub, keep only README, LICENSE, CHANGELOG, CONTRIBUTING, roadmap)
-QUICKSTART.md
+# Internal documentation (for GitHub, keep only README, LICENSE, CHANGELOG, CONTRIBUTING, QUICKSTART, INSTALLATION_GUIDE, roadmap)
 GITHUB_SETUP.md
 SETUP_SUMMARY.md
-INSTALLATION_GUIDE.md
 INVISIBLE_RAG.md
 
 # Documentation builds
