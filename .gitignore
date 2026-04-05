@@ -1,0 +1,86 @@
+# RAG System - .gitignore
+# Databases and lock files
+*.db
+*.db-shm
+*.db-wal
+*.lock
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Models and data
+models/
+*.pkl
+*.pickle
+*.npy
+*.npz
+
+# State files
+capture_state.json
+reindex_state.json
+
+# Backups
+backups/
+
+# Test databases
+test_*.db
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+logs/
+
+# Coverage
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Archive (keep separate from main repo)
+archive/
+
+# Internal documentation (for GitHub, keep only README, LICENSE, CHANGELOG, CONTRIBUTING, QUICKSTART, INSTALLATION_GUIDE, roadmap)
+GITHUB_SETUP.md
+SETUP_SUMMARY.md
+INVISIBLE_RAG.md
+
+# Documentation builds
+docs/_build/
+docs/site/
+
+# Temporary files
+tmp/
+temp/

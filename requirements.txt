@@ -1,0 +1,17 @@
+# RAG System Dependencies
+# Production-grade RAG memory plugin for Hermes
+
+# Core dependencies
+sentence-transformers>=2.2.0
+numpy>=1.21.0
+scikit-learn>=1.0.0
+
+# SQLite extensions
+sqlite-vec>=0.1.0
+
+# Optional: For better performance
+# torch>=2.0.0  # Automatically installed with sentence-transformers
+
+# Optional: For advanced features
+# nltk>=3.8.0  # For text preprocessing
+# spacy>=3.5.0  # For advanced NLP
