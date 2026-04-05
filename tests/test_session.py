@@ -13,8 +13,8 @@ from datetime import datetime
 # Add parent directory to path
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-from rag_session import Session, SessionManager, SessionContext
-from rag_peer_model import Peer, PeerManager
+from models.session import Session, SessionManager, SessionContext
+from models.peer import Peer, PeerManager
 
 
 class TestSession(unittest.TestCase):

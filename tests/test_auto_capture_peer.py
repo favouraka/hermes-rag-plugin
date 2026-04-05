@@ -11,11 +11,13 @@ import sys
 from datetime import datetime
 
 # Add parent directory to path
-sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+plugin_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+sys.path.insert(0, plugin_dir)
 
-from rag_auto_capture_peer import AutoPeerCapture
-from rag_peer_model import Peer, PeerManager
-from rag_session import Session, SessionManager
+# Import using absolute imports when running tests directly
+from core.auto_capture import AutoPeerCapture
+from models.peer import Peer, PeerManager
+from models.session import Session, SessionManager
 
 
 class TestAutoPeerCapture(unittest.TestCase):

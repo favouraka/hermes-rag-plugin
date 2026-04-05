@@ -8,7 +8,13 @@ from datetime import datetime
 from typing import Optional, Dict, Any, List
 import sqlite3
 
-from ..models import Peer, PeerManager, Session, SessionManager
+# Handle both plugin context and test context
+try:
+    # Plugin context: relative import
+    from ..models import Peer, PeerManager, Session, SessionManager
+except ImportError:
+    # Test context: absolute import
+    from models import Peer, PeerManager, Session, SessionManager
 
 
 class AutoPeerCapture:
