@@ -18,7 +18,7 @@ Production-grade RAG (Retrieval-Augmented Generation) memory system for Hermes A
 pip install -r requirements.txt
 
 # Plugin is located at:
-~/.hermes/plugins/rag-memory/src/
+~/.hermes/plugins/rag-memory/
 
 # Hermes will automatically load it on startup
 ```
@@ -34,10 +34,9 @@ pip install -r requirements.txt
 
 ```
 .
-├── src/              # Plugin source code (loaded by Hermes)
-│   ├── models/       # Peer & Session models
-│   ├── core/         # RAG core, namespace, auto-capture
-│   └── tools/        # Schemas & handlers
+├── models/           # Peer & Session models
+├── core/             # RAG core, namespace, auto-capture
+├── tools/            # Schemas & handlers
 ├── tests/            # Test suite
 ├── scripts/          # Utility scripts
 ├── docs/             # Documentation
