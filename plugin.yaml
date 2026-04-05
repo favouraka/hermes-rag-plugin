@@ -1,0 +1,24 @@
+name: rag-memory
+version: 2.0.0
+description: Production-grade RAG memory plugin with peer/session tracking and namespace isolation. Hybrid retrieval (TF-IDF + Neural) with automatic context injection and message capture.
+
+author: favouraka
+
+provides_tools:
+  - rag_search
+  - rag_add_document
+  - rag_get_peer_context
+  - rag_get_session_context
+  - rag_start_session
+  - rag_end_session
+  - rag_capture_message
+  - rag_list_peers
+  - rag_list_sessions
+
+provides_hooks:
+  - pre_llm_call
+  - post_tool_call
+
+# Optional: Gate loading on required environment variables
+# requires_env:
+#   - OPENAI_API_KEY
